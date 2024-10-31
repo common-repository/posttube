@@ -1,0 +1,49 @@
+#ptp_player { }
+/* Icones Bureau */
+#winicon1 * { margin : 0; padding : 0; border : 0 !important; }
+#winicon1 { width: 84px; float: left; margin-left : 10px; margin-top : 10px; text-align: center;}
+.rubtitle {  font-size: 10px; font-family : "trebuchet ms"; display : block; margin-top : -5px; }
+
+.jqDrag { cursor: move; }
+.jqDnR { position: relative; cursor: move; }
+
+/* Player style */
+#plaincontent { margin: 10px 0 0 15px; padding: 0; background: url(images/bg_10.png) repeat; padding:0; border: 3px ridge #333}
+#allcontent { margin: 0; padding: 0; position: relative; background: url(images/bg_10.png) repeat; }
+.contentvideo { background-color: transparent; margin: 0 !important; padding: 0 !important;}
+
+/* iframe styles */
+.contentvideo .highslide-html-content { padding: 0px; background: url(images/bg_10.png) repeat; }
+.contentvideo .highslide-header ul { position: relative; margin: 0; padding: 0; text-align: right; width: 100%; list-style: none; height: 20px; }
+.contentvideo .highslide-header ul li {  }
+.contentvideo .highslide-header a { font-weight: bold; color: gray; text-transform: uppercase; text-decoration: none; }
+.contentvideo .highslide-header a:hover { color: black; }
+.contentvideo .highslide-header ul li.highslide-move { top: 2px; cursor: move; }
+.contentvideo .highslide-header ul li.highslide-move a { cursor: move; }
+.contentvideo .highslide-header ul li.highslide-close { right: 3px; top: 2px; }
+.contentvideo .highslide-body { }
+.contentvideo .highslide-footer { display: none; }
+.contentvideo .highslide-header ul li.highslide-previous, 
+.contentvideo .highslide-header ul li.highslide-next { display: none; }
+.contentvideo .highslide-footer .highslide-resize {
+}
+
+
+#playerroot { float: left; margin: 5px; padding: 0; }
+#playlist { float: left; margin: 5px; padding:0; }
+
+#theForm { text-indent: 0; margin: 0; padding: 0; padding-left:2px; }
+#theSelect { text-indent: 0; width: 100%; padding: 0 !important; margin: 0 !important;}
+
+#playlistbox { text-indent: 0; margin: 0; padding: 0; overflow: auto; margin-top: 5px; }
+#writeroot { margin:0; padding:0; }
+
+.playlistlo { text-indent: 0; font-size: 0.9em; text-align: left !important; VERTICAL-ALIGN:center; TEXT-TRANSFORM:none; COLOR:#fff; BACKGROUND: url(images/bg_10.png); TEXT-ALIGN: left; margin: 0; padding: 0 ; }
+.playlisthi { text-indent: 0; font-size: 0.9em; text-align: left !important; TEXT-TRANSFORM:none; COLOR:#fff; BACKGROUND: url(images/bg_2.png); cursor: pointer; margin: 0; padding: 0; }
+
+.vidtable tr {padding-left:0; margin-left:0; }
+.vidtable td {padding-left:0; margin: 1px 0 1px 0; }
+.vidtable td .vidthumb { margin-left:0; padding-left:0; }
+.vidtable td.vidtd { margin: 1px 0 1px 1px; }
+.vidtable td.vidtd p { padding: 0 5px; }
+
